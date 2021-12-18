@@ -197,9 +197,9 @@ In pratica si tratta di definire il tipo, le quantità di materiali, le persone,
 Riferendosi alla WBS, si tratta di stimare le risorse che devono essere impiegate per produrre i deliverable previsti dal progetto e per completare i singoli Work Package.
 Alla fine di questo processo si otterrà la lista delle risorse e il loro utilizzo in termini di unità di impiego (per esempio: ore/uomo, ore/macchina, quantità di materiale, ecc.), riportate in un documento denominato **Requirement Breakdown Structure** (RBS), ovvero una WBS che riporta la stima di tutte le risorse necessarie al completamento del progetto.
 
-- risorse a impiego: sono utilizzate durante l'attività ma possono essere riutilizzate
+- risorse a **impiego**: sono utilizzate durante l'attività ma possono essere riutilizzate
 
-- risorse a consumo: non possono essere più riutilizzate in quanto vengono consumate dall'attività
+- risorse a **consumo**: non possono essere più riutilizzate in quanto vengono consumate dall'attività
 
 ### Costi (22(3))
 
@@ -229,7 +229,7 @@ Calcolo del costo di ciascuna risorsa:
 
 Calcolo del costo di ciascuna attività:
 
-- costo delle risorse (costo variabile)
+- costo delle risorse (costo variabile): costo di tutte le risorse impiegate
 
 - costo fisso: costi indipendenti dalle risorse impiegate, prezzo definito contrattualmente
 
@@ -251,15 +251,15 @@ Qua rientrano tutte quelle attività che in modo diretto od indiretto vengono sv
 
 Serve a stabilire:
 
-- lo scopo del lavoro: cosa si deve fare
+- lo scopo del lavoro: **cosa** si deve fare
 
-- la pianificazione: come bisogna farlo
+- la pianificazione: **come** bisogna farlo
 
-- la programmazione: quando bisogna farlo
+- la programmazione: **quando** bisogna farlo
 
-- la pianificazione dei costi: a quale costo
+- la pianificazione dei costi: a quale **costo**
 
-- l'organizzazione e le procedure: chi fa che cosa
+- l'organizzazione e le procedure: **chi** fa che cosa
 
 ### I preventivi (slide 2, 45-47)
 
