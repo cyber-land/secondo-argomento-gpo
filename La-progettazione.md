@@ -76,7 +76,29 @@ La scomposizione gerarchica delle fasi del progetto è detta **Work Breakdown St
 
 Il **diagramma reticolare di precedenza** (PDM, Precedence Diagramming Method) riporta le interconnessioni tra le fasi (processo di Pianificazione/Tempi)
 
-Il **diagramma di Gantt** serve per organizzare e visualizzare la sequenza temporale delle fasi
+Il **diagramma di Gantt** serve per organizzare e visualizzare la sequenza temporale delle fasi, esso si basa su un piano cartesiano, lungo l'asse verticale sono elencate tutte le attività nelle quali è scomposto il progetto, mentre sull'asse orizzontale compare la variabile temporale, nell'unità di misura prescelta.
+
+- si effettua un'analisi di progetto e lo si scompone nelle operazioni fondamentali , corrispondenti alle attività della WBS
+
+- si assegna ad ogni attività la durata prevista, nota la ripartizione delle risorse nella OBS
+
+- si rappresentano le operazioni come segmenti o barre di lunghezza proporzionale alla loro durata
+
+- la sequenza dei segmenti deve rispettare lo sviluppo di un prodotto
+
+vantaggi:
+
+- comprensione visiva immediata
+
+- posizionamento nel tempo delle varie attività
+
+svantaggi:
+
+- difficoltà di aggiornamento del programma (strumento poco flessibile)
+
+- non è esplicitata la logica del progetto
+
+- non sono rappresentate le interdipendenze tra le varie attività (non lascia intendere se il completamento di un'attività sia necessario o meno per l'inizio di un'altra)
 
 ### PMBOK (6(3))
 
@@ -127,6 +149,8 @@ Un Work Package normalmente riporta:
 
 - il budget assegnato.
 
+---
+
 # Capisaldi del progetto
 
 ### Tempi (13(8))
@@ -135,6 +159,8 @@ Una volta compilata la WBS ed estratta la lista delle attività, si inizia a sch
 Il primo passo è individuare un modello di schedulazione da adottare; uno dei modelli più diffusi prende il nome di **CPM (Critical Path Method)**.
 Si tratta di un modello di tipo reticolare che si basa sulla teoria dei grafi, i **nodi** del grafo rappresentano le attività e gli **archi** orientati le dipendenze tra le attività
 Il grafo deve avere un solo nodo iniziale (l’avvio del progetto) e un solo nodo finale (la chiusura del progetto).
+
+per ciascuna delle attività è indicata la durata, i vincoli di precedenza determinano una finestra temporale entro la quale l'attività stessa dovrà essere conclusa, si determina cosi il percorso critico, cioè quelle attività per le quali un ritardo implica il ritardo dell’intero progetto. [image page 54]()
 
 Le dipendenze tra le attività in un grafo di tipo CPM prevedono una delle seguenti modalità tipiche (una in serie, le altre in parallelo):
 
@@ -146,9 +172,7 @@ Le dipendenze tra le attività in un grafo di tipo CPM prevedono una delle segue
 
 - SF, (Start to Finish, in parallelo): l’attività attuale può terminare solo se quella precedente è già iniziata.
 
-La schedulazione con CPM consente di calcolare la durata totale di un progetto e permette di valutare le attività critiche, cioè quelle attività per le quali un ritardo implica il ritardo dell’intero progetto.
-
-*l’analisi “al più presto”*
+**l’analisi “al più presto”**
 
 Una volta stabilita la data iniziale del progetto (data del primo nodo), la determinazione delle date di inizio attività e fine attività “al più presto” avviene a partire dalla data del nodo iniziale, supposto a durata zero; quindi, a partire da questa e seguendo gli archi:
 
@@ -156,7 +180,7 @@ Una volta stabilita la data iniziale del progetto (data del primo nodo), la dete
 
 - la data finale di un’attività si calcola dalla sua data iniziale più la sua durata;
 
-*l’analisi “al più tardi”*
+**l’analisi “al più tardi”**
 
 Per ogni fase i passi sono molto simili a quelli visti in precedenza, ma vanno effettuati a ritroso, a partire dalla data finale e calcolando per prima la data finale di ogni attività:
 
@@ -228,11 +252,11 @@ Calcolo del costo totale del progetto:
 
 ~~WBS 18-23, OBS&RAM 24-25, RBS 26-29, CBS 30-33~~
 
-CPM 58-63, PERT 86-87, gantt 88-91
+~~CPM 58-63, PERT 86-87, gantt 88-91~~
 
 ---
 
-# L'avvio del progetto (42-47)
+### L'avvio del progetto (42-47)
 
 Qua rientrano tutte quelle attività che in modo diretto od indiretto vengono sviluppate per pianificare il lavoro da eseguire, nel tentativo di individuare tutti i potenziali problemi, definire le "strade" da percorrere e creare una base di riferimento da utilizzare per  il controllo.
 
@@ -301,4 +325,32 @@ La Scheda commessa evidenzia, inoltre, i dati:
 
 Esso permette di elaborare all’azienda, attraverso l’aggregazione delle varie commesse gestite in quel determinato periodo, sia il budget sia il consuntivo (bilancio) di tutta la società.
 
-### programmazione del progetto (slide 3) (52-55)
+### Programmazione del progetto (slide 3) (52-55)
+
+La programmazione è successiva alla pianificazione
+
+Mediante la pianificazione e la programmazione del progetto, si vuole arrivare a delineare un modello comportamentale al quale ci si dovrà attenere il più strettamente possibile durante l'implementazione reale
+
+gli elementi di base sono:
+
+- la durata dell'attività: espressa in tempo ralativo (es. giorni)
+
+- le relazioni di dipendenza tra altre attività: rappresenta i vincoli e le condizioni necessarie affinchè ciascuna attività possa avere inizio
+
+- il calendario di lavoro: consente di trasformare la durata nel corrispondente periodo di calendario
+
+- le eventuali date imposte (milestones)
+
+le tecniche di programmazione sono:
+
+- planning e/o elenchi di attività
+
+è la tecnica più semplice, nella quale si prendono le attività del WBS ed in base alle stime delle risorse utilizzate si quantificano i tempi di esecuzione di ogni attività
+
+- diagrammi a barre o Gantt
+
+possono essere considerati la traduzione in forma grafica del planning
+
+- tecniche reticolari (CPM, PERT)
+
+rappresentazione della programmazione del progetto mediante un grafo orientato, le attività vengono rappresentate dagli archi o dai nodi, in ogni caso solo legate tra loro da vincoli di precedenza (logici) rappresentati dall'orientazione degli archi
