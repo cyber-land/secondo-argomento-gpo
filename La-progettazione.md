@@ -48,29 +48,19 @@ Le 9 aree(/fasi) di conoscenza sono le seguenti:
 
 - Scopo: riguarda tutti quei processi necessari per assicurare che venga preso  in considerazione tutto il lavoro necessario per completare il lavoro.
 
-- Tempi (Project Time Management), i processi necessari per assicurare il
-  completamento temporale del progetto.
+- Tempi (Project Time Management), i processi necessari per assicurare il completamento temporale del progetto.
 
-- Costi (Project Cost Management), i processi necessari per definire la di-
-  sponibilità finanziaria (budget) del progetto e assicurare che venga ri-
-  spettato.
+- Costi (Project Cost Management), i processi necessari per definire la disponibilità finanziaria (budget) del progetto e assicurare che venga rispettato.
 
-- Rischi (Project Risk Management), tutti i processi necessari per assicura-
-  re l’identificazione e la risposta ai rischi di progetto.
+- Rischi (Project Risk Management), tutti i processi necessari per assicurare l’identificazione e la risposta ai rischi di progetto.
 
-- Qualità (Project Quality Management), processi necessari per assicurare
-  che gli obiettivi siano raggiunti con un determinato grado di qualità.
+- Qualità (Project Quality Management), processi necessari per assicurare che gli obiettivi siano raggiunti con un determinato grado di qualità.
 
-- Risorse Umane (Project Human Resources Management), processi ne-
-  cessari per assicurare la corretta organizzazione e gestione del personale
-  coinvolto nel progetto.
+- Risorse Umane (Project Human Resources Management), processi necessari per assicurare la corretta organizzazione e gestione del personale coinvolto nel progetto.
 
-- Comunicazioni (Project Communications Management), processi ne-
-  cessari per assicurare la corretta creazione e distribuzione delle infor-
-  mazioni relative al progetto.
+- Comunicazioni (Project Communications Management), processi necessari per assicurare la corretta creazione e distribuzione delle informazioni relative al progetto.
 
-- Acquisti (Project Procurament Management), tutti i processi necessari per
-  assicurare l’acquisizione dall’esterno di beni e servizi necessari al progetto.
+- Acquisti (Project Procurament Management), tutti i processi necessari per assicurare l’acquisizione dall’esterno di beni e servizi necessari al progetto.
 
 La scomposizione gerarchica delle fasi del progetto è detta **Work Breakdown Structure** (WBS)
 
@@ -78,7 +68,7 @@ Il **diagramma reticolare di precedenza** (PDM, Precedence Diagramming Method) r
 
 Il **diagramma di Gantt** serve per organizzare e visualizzare la sequenza temporale delle fasi, esso si basa su un piano cartesiano, lungo l'asse verticale sono elencate tutte le attività nelle quali è scomposto il progetto, mentre sull'asse orizzontale compare la variabile temporale, nell'unità di misura prescelta.
 
-- si effettua un'analisi di progetto e lo si scompone nelle operazioni fondamentali , corrispondenti alle attività della WBS
+- si effettua un'analisi di progetto e lo si scompone nelle operazioni fondamentali, corrispondenti alle attività della WBS
 
 - si assegna ad ogni attività la durata prevista, nota la ripartizione delle risorse nella OBS
 
@@ -130,8 +120,7 @@ dall’incrocio tra l'OBS con la WBS, determina la **matrice delle responsabilit
 
 Un Work Package normalmente riporta:
 
-- il nome, il titolo e l’identificativo del Work Package, quindi la descrizio-
-  ne del lavoro da svolgere (task);
+- il nome, il titolo e l’identificativo del Work Package, quindi la descrizione del lavoro da svolgere (task);
 
 - le date di inizio e completamento del lavoro;
 
@@ -160,7 +149,7 @@ Il primo passo è individuare un modello di schedulazione da adottare; uno dei m
 Si tratta di un modello di tipo reticolare che si basa sulla teoria dei grafi, i **nodi** del grafo rappresentano le attività e gli **archi** orientati le dipendenze tra le attività
 Il grafo deve avere un solo nodo iniziale (l’avvio del progetto) e un solo nodo finale (la chiusura del progetto).
 
-per ciascuna delle attività è indicata la durata, i vincoli di precedenza determinano una finestra temporale entro la quale l'attività stessa dovrà essere conclusa, si determina cosi il percorso critico, cioè quelle attività per le quali un ritardo implica il ritardo dell’intero progetto. [image page 54]()
+per ciascuna delle attività è indicata la durata, i vincoli di precedenza determinano una finestra temporale entro la quale l'attività stessa dovrà essere conclusa, si determina cosi il percorso critico, cioè quelle attività per le quali un ritardo implica il ritardo dell’intero progetto. [image page 54](/)
 
 Le dipendenze tra le attività in un grafo di tipo CPM prevedono una delle seguenti modalità tipiche (una in serie, le altre in parallelo):
 
@@ -333,15 +322,15 @@ Mediante la pianificazione e la programmazione del progetto, si vuole arrivare a
 
 gli elementi di base sono:
 
-- la durata dell'attività: espressa in tempo ralativo (es. giorni)
+- **la durata dell'attività**: espressa in tempo ralativo (es. giorni)
 
-- le relazioni di dipendenza tra altre attività: rappresenta i vincoli e le condizioni necessarie affinchè ciascuna attività possa avere inizio
+- **le relazioni di dipendenza tra altre attività**: rappresenta i vincoli e le condizioni necessarie affinchè ciascuna attività possa avere inizio
 
-- il calendario di lavoro: consente di trasformare la durata nel corrispondente periodo di calendario
+- **il calendario di lavoro**: consente di trasformare la durata nel corrispondente periodo di calendario
 
-- le eventuali date imposte (milestones)
+- **le eventuali date imposte** (milestones)
 
-le tecniche di programmazione sono:
+le **tecniche** di programmazione sono:
 
 - planning e/o elenchi di attività
 
