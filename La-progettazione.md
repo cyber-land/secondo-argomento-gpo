@@ -228,14 +228,77 @@ Calcolo del costo totale del progetto:
 
 ~~WBS 18-23, OBS&RAM 24-25, RBS 26-29, CBS 30-33~~
 
+CPM 58-63, PERT 86-87, gantt 88-91
+
 ---
 
-## L'avvio del progetto (42-47)
+# L'avvio del progetto (42-47)
 
-Qua rientrano tutte quelle attività che in modo diretto od indiretto vengono sviluppate per pianificare il lavoro da eseguire, nel tentativo di individuare tutti i potenziali problemi, definire le "strade" da percorrere e creare una base di riferimento da utilizzare per  il controllo
+Qua rientrano tutte quelle attività che in modo diretto od indiretto vengono sviluppate per pianificare il lavoro da eseguire, nel tentativo di individuare tutti i potenziali problemi, definire le "strade" da percorrere e creare una base di riferimento da utilizzare per  il controllo.
 
-preventivi del progetto e scheda di commessa (slide 2) (48-51)
+Serve a stabilire:
 
-programmazione del progetto (slide 3) (52-55)
+- lo scopo del lavoro: cosa si deve fare
 
-CPM 58-63, PERT 86-87, gantt 88-91
+- la pianificazione: come bisogna farlo
+
+- la programmazione: quando bisogna farlo
+
+- la pianificazione dei costi: a quale costo
+
+- l'organizzazione e le procedure: chi fa che cosa
+
+### I preventivi (slide 2, 45-47)
+
+- Iniziale
+
+Viene redatto prima della stipula del contratto con il committente e serve a formulare il prezzo di vendita.
+
+L’elaborazione del preventivo iniziale serve a fare una valutazione al fine di decidere se accettare o meno l’ordine del committente.
+
+- Esecutivo
+
+Il Preventivo esecutivo viene redatto dopo l’acquisizione della commessa, cioè a seguito della positiva conclusione della trattativa con il committente.
+
+Essa consiste in un preventivo più aggiornato e dettagliato rispetto al preventivo iniziale ed è un obiettivo economico da rispettare nella realizzazione del progetto.
+
+- aggiornato
+
+Il preventivo aggiornato viene così chiamato perché ha la funzione di aggiornare periodicamente (per es. ogni mese, ogni trimestre) le previsioni di costo indicate nel preventivo esecutivo.
+
+I costi nei preventivi sono:
+
+- Costi **diretti** (es. i costi dei materiali diretti, della manodopera
+  diretta, della progettazione, dei materiali e macchinari, dei trasporti)
+
+- Costi **pieni** le quali comprendono i costi diretti più i costi indiretti (es. amministrativi, commerciali)
+
+### Scheda di commessa (slide 2, 48-51)
+
+Il **Proposal Manager** è l’anello di congiunzione fondamentale tra la direzione aziendale e il potenziale cliente.
+
+Dopo aver analizzato tutte le informazioni in suo possesso, a partire dai documenti contrattuali fino alle ipotetiche offerte delle aziende concorrenti, il Proposal Manager si occupa di formulare la più efficace delle proposte, puntando ad assicurare all’azienda un progetto con ampi margine di guadagno e rischi ragionevoli.
+
+La scheda commessa è così articolata:
+
+- In orizzontale: le varie configurazioni di costo, di risultati reddituali, notizie
+  di carattere finanziario e produttivo, ad es. costi esterni, costi interni
+  diretti/indiretti, imposte dirette, risultato utile netto;
+
+- In verticale le tre fasi fondamentali di controllo della commessa:
+  
+  - il preventivo d’offerta su cui viene definito il prezzo di vendita;
+  
+  - il preventivo esecutivo, da predisporre al momento della stipula del contratto;
+  
+  - preventivo aggiornato, che rappresenta l’ultima previsione disponibile sull’andamento economico della commessa.
+
+La Scheda commessa evidenzia, inoltre, i dati:
+
+- A livello dell’intera commessa, indipendentemente dalla sua durata;
+
+- A livello del periodo di budget, per l’anno preso in considerazione.
+
+Esso permette di elaborare all’azienda, attraverso l’aggregazione delle varie commesse gestite in quel determinato periodo, sia il budget sia il consuntivo (bilancio) di tutta la società.
+
+### programmazione del progetto (slide 3) (52-55)
