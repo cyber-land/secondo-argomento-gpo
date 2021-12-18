@@ -98,13 +98,13 @@ Un'attività di progetto significativa si conclude con un deliverable, il quale 
 
 è la rappresentazione in forma grafica della composizione gerarchica di tutte le attività di un progetto.
 
-Essa parte da livello più alto e riporta la scomposizione "ad albero" delle attività, disgregantole in unità via via più dettagliate fino a raggiungere il cosidetto *work package*  che è la lavorazione minima a cui può essere attribuito un responabile ed una durata.
+Essa parte da livello più alto e riporta la scomposizione "ad albero" delle attività, disgregantole in unità via via più dettagliate fino a raggiungere al cosidetto *work package* che è la lavorazione minima a cui può essere attribuito un responabile ed una durata.
 
 Regola del 100%: la somma del lavoro dei "figli" deve essere uguale a quella del "padre"
 
-Una volta stabilita la WBS si può cominciare a organizzare le risorse umane stabilite nel documento preliminare (il Project Charter).
+l'**Organization Breakdown Structure** (OBS) è la struttura di scomposizione organizzativa
 
-a questo scopo si realizza la struttura di scomposizione dell’organizzazione del progetto si chiama **Organization Breakdown Structure** (OBS) e, dall’incrocio con la WBS, determina la matrice delle responsabilità di progetto (RAM o RACI).
+dall’incrocio tra l'OBS con la WBS, determina la **matrice delle responsabilità** di progetto (RAM o RACI) che risponde alla domanda "chi fa cosa?" assegnando i work package ai rispettivi centri di responsabilità
 
 Un Work Package normalmente riporta:
 
@@ -182,7 +182,11 @@ In particolare, con un diagramma di Gantt vengono messi in evidenza i possibili 
 La **pianificazione delle risorse** è di difficile standardizzazione, si tratta di un processo (Pianificazione/Tempi “Stimare le risorse”) che per sua natura deve essere reiterato più volte durante la vita del progetto e si basa sostanzialmente su analisi di stima.
 In pratica si tratta di definire il tipo, le quantità di materiali, le persone, le attrezzature e le forniture necessarie per eseguire ciascuna attività prevista dal progetto.
 Riferendosi alla WBS, si tratta di stimare le risorse che devono essere impiegate per produrre i deliverable previsti dal progetto e per completare i singoli Work Package.
-Alla fine di questo processo si otterrà la lista delle risorse e il loro utilizzo in termini di unità di impiego (per esempio: ore/uomo, ore/macchina, quantità di materiale, ecc.), riportate in un documento denominato Requirement Breakdown Structure (RBS), ovvero una WBS che riporta la stima delle risorse.
+Alla fine di questo processo si otterrà la lista delle risorse e il loro utilizzo in termini di unità di impiego (per esempio: ore/uomo, ore/macchina, quantità di materiale, ecc.), riportate in un documento denominato **Requirement Breakdown Structure** (RBS), ovvero una WBS che riporta la stima di tutte le risorse necessarie al completamento del progetto.
+
+- risorse a impiego: sono utilizzate durante l'attività ma possono essere riutilizzate
+
+- risorse a consumo: non possono essere più riutilizzate in quanto vengono consumate dall'attività
 
 ### Costi (22(3))
 
@@ -201,3 +205,37 @@ I **costi** vengono classificati in:
 I costi diretti di un progetto invece si possono valutare soltanto dopo averne precisato lo scopo, per esempio attraverso la compilazione della WBS.
 
 In generale la stima di costo più impegnativa di un progetto riguarda la stima dei costi diretti, ovvero dei costi specifici che ogni attività prevista dal progetto comporta.
+
+Il **Cost breakdown structure** (CBS) si ottiene dal WBS, assegnando ad ogni work package il costo unitario, permette quindi di calcolare il costo totale del progetto
+
+Calcolo del costo di ciascuna risorsa:
+
+- costo delle risorse ad **impiego**: costo della risorsa per unità di tempo * durata dell'attività
+
+- costo delle risorse a **consumo**: costo unitario della risorsa * numero delle risorse utilizzate
+
+Calcolo del costo di ciascuna attività:
+
+- costo delle risorse (costo variabile)
+
+- costo fisso: costi indipendenti dalle risorse impiegate, prezzo definito contrattualmente
+
+Calcolo del costo totale del progetto:
+
+- costo diretto: pari alla somma dei costi di tutte le attività del progetto
+
+- costo indiretto: costo non collegato direttamente alle attività del progetto (es. costi della sede, servizi amministrativi della società)
+
+~~WBS 18-23, OBS&RAM 24-25, RBS 26-29, CBS 30-33~~
+
+---
+
+## L'avvio del progetto (42-47)
+
+Qua rientrano tutte quelle attività che in modo diretto od indiretto vengono sviluppate per pianificare il lavoro da eseguire, nel tentativo di individuare tutti i potenziali problemi, definire le "strade" da percorrere e creare una base di riferimento da utilizzare per  il controllo
+
+preventivi del progetto e scheda di commessa (slide 2) (48-51)
+
+programmazione del progetto (slide 3) (52-55)
+
+CPM 58-63, PERT 86-87, gantt 88-91
